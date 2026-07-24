@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eduardson Cortez | Junior Software Developer</title>
+<meta name="description" content="Portfolio of Eduardson Cortez — Junior Software Developer &amp; Full-Stack Web Developer specializing in secure, practical business web systems, accelerated with AI-assisted development.">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0f1e'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' font-weight='bold' fill='%23d4af37' text-anchor='middle'%3EEC%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Inline icon sprite — no external icon dependency -->
+<svg style="display:none" aria-hidden="true">
+  <defs>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m0 0l-4.5-4.5M12 15l4.5-4.5"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3.5,7 12,13 20.5,7"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 5-3.2 7.7-7 9-3.8-1.3-7-4-7-9V6l7-3z"/><line x1="12" y1="3" x2="12" y2="21"/></symbol>
+    <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></symbol>
+    <symbol id="i-chevron-down" viewBox="0 0 24 24"><polyline points="6,9 12,15.5 18,9"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><polyline points="8.5,6.5 3,12 8.5,17.5"/><polyline points="15.5,6.5 21,12 15.5,17.5"/></symbol>
+    <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5.5" rx="8" ry="3"/><path d="M4 5.5v13c0 1.7 3.6 3 8 3s8-1.3 8-3v-13"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7 18.5a4.5 4.5 0 0 1-1-8.9 5.5 5.5 0 0 1 10.7-1.9A4.5 4.5 0 0 1 17 18.5H7z"/><path d="M12 21v-7m0 0l-2.5 2.5M12 14l2.5 2.5"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M12 2.5l1.8 6.2L20 10.5l-6.2 1.8L12 18.5l-1.8-6.2L4 10.5l6.2-1.8L12 2.5z"/><path d="M19 14.5l.8 2.7 2.7.8-2.7.8-.8 2.7-.8-2.7-2.7-.8 2.7-.8.8-2.7z"/></symbol>
+    <symbol id="i-terminal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><polyline points="7,9.5 10.5,12.5 7,15.5"/><line x1="12.5" y1="15.5" x2="17" y2="15.5"/></symbol>
+    <symbol id="i-flow" viewBox="0 0 24 24"><circle cx="6" cy="18" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 9v6"/><path d="M9 6h6a3 3 0 0 1 3 3v6"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16.5"/><circle cx="12" cy="7.5" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M12 4L2 9.5 12 15l10-5.5L12 4z"/><path d="M6 12v4.5c0 1.7 2.7 3 6 3s6-1.3 6-3V12"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M8.3 12.7L6.5 21l5.5-3 5.5 3-1.8-8.3"/></symbol>
+    <symbol id="i-fingerprint" viewBox="0 0 24 24"><path d="M12 11a3 3 0 0 1 3 3c0 3-1 5-2 6.5"/><path d="M12 11a3 3 0 0 0-3 3c0 2 .5 4 1.6 5.8"/><path d="M12 7a7 7 0 0 1 7 7c0 1.6-.2 3-.6 4.3"/><path d="M12 7a7 7 0 0 0-7 7c0 1.3.2 2.6.6 3.8"/><path d="M12 3a11 11 0 0 1 11 11"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M18 13.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5.5"/><polyline points="15,3 21,3 21,9"/><line x1="10.5" y1="13.5" x2="21" y2="3"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-7.7 7-12.5a7 7 0 1 0-14 0C5 14.3 12 22 12 22z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22,2 15,22 11,13 2,9"/></symbol>
+    <symbol id="i-signal" viewBox="0 0 24 24"><path d="M4 20v-3M9 20v-6M14 20v-9M19 20V4"/></symbol>
+  </defs>
+</svg>
+
+<div class="bg-grid" aria-hidden="true"></div>
+
+<!-- ================= NAV ================= -->
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark">EC</span>
+      <span class="brand-name">Eduardson&nbsp;Cortez</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#workflow" class="nav-link">Workflow</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#contact" class="btn btn-gold btn-sm mobile-cta">Get in Touch</a>
+    </nav>
+
+    <a href="#contact" class="btn btn-gold btn-sm nav-cta">Get in Touch</a>
+
+    <button type="button" class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="container hero-inner">
+    <div class="hero-text reveal">
+      <p class="eyebrow"><span class="dot"></span> Available for onsite work after graduation &mdash; September 2026</p>
+      <h1>Hi, I&rsquo;m <span class="text-gold">Eduardson Cortez</span></h1>
+      <h2 class="hero-role">Junior Software Developer &amp; Full-Stack Web Developer</h2>
+      <p class="hero-desc">
+        Graduating BS Information Systems student (Cybersecurity Track) building practical, secure
+        business web systems &mdash; HRIS &amp; biometric attendance platforms, dashboards, REST APIs and
+        cloud deployments. I pair hands-on engineering with AI-assisted code review and security
+        practices to ship faster without cutting corners.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-gold">View My Work</a>
+        <a href="docs/Eduardson_Cortez_Resume.pdf" class="btn btn-outline" download>
+          <svg class="icon icon-sm"><use href="#i-download"/></svg> Download Resume
+        </a>
+      </div>
+      <div class="hero-social">
+        <a href="mailto:eduardcortez05@gmail.com" aria-label="Email"><svg class="icon"><use href="#i-mail"/></svg></a>
+        <a href="https://siglatechsolutions.com/" target="_blank" rel="noopener" aria-label="SiglaTech Solutions website"><svg class="icon"><use href="#i-globe"/></svg></a>
+      </div>
+    </div>
+
+    <div class="hero-photo reveal">
+      <div class="photo-ring">
+        <img src="images/profile.png" alt="Eduardson Cortez, Founder &amp; CEO of SiglaTech">
+      </div>
+      <div class="badge-float badge-shield"><svg class="icon icon-sm"><use href="#i-shield"/></svg> Cybersecurity Track</div>
+      <div class="badge-float badge-ai"><svg class="icon icon-sm"><use href="#i-cpu"/></svg> AI-Assisted Dev</div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll down"><svg class="icon"><use href="#i-chevron-down"/></svg></a>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <div class="container">
+    <p class="section-tag reveal">About Me</p>
+    <h2 class="section-title reveal">Practical systems, built with care</h2>
+
+    <div class="about-grid">
+      <p class="about-text reveal">
+        I'm a graduating BS Information Systems student (Cybersecurity Track) with hands-on experience
+        in full-stack web development, HRIS and biometric attendance integration, REST APIs,
+        PostgreSQL/Supabase, cloud deployment, testing, troubleshooting, and secure application
+        practices. I've contributed to real OJT projects involving business workflows, dashboards,
+        authentication, validation, and multi-device data flow &mdash; and I run SiglaTech, a small
+        studio building websites and workflow systems for local businesses. I'm interested in building
+        practical payroll, HR, accounting, inventory, and other business systems.
+      </p>
+
+      <div class="about-stats reveal">
+        <div class="stat-card">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Live &amp; deployed web projects</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">5 yrs</span>
+          <span class="stat-label">Technical &amp; operations support experience</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">2026</span>
+          <span class="stat-label">Expected graduation, GK College (Sept)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <p class="section-tag reveal">Technical Skills</p>
+    <h2 class="section-title reveal">What I work with</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg class="icon icon-lg"><use href="#i-code"/></svg></div>
+        <h3>Languages &amp; Frameworks</h3>
+        <div class="tags">
+          <span>JavaScript</span><span>HTML</span><span>CSS</span><span>SQL</span>
+          <span>Python</span><span>TypeScript &mdash; Fundamentals</span><span>React / Next.js &mdash; Hands-on</span>
+          <span>Node.js &mdash; Hands-on</span><span>Django &mdash; Project Experience</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg class="icon icon-lg"><use href="#i-database"/></svg></div>
+        <h3>Databases &amp; Application Dev</h3>
+        <div class="tags">
+          <span>Supabase &mdash; Hands-on</span><span>PostgreSQL &mdash; Hands-on</span><span>Prisma &mdash; Basics</span>
+          <span>REST APIs &mdash; Hands-on</span><span>CRUD</span><span>Authentication</span>
+          <span>RBAC</span><span>Forms &amp; Dashboards</span><span>Validation</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg class="icon icon-lg"><use href="#i-cloud"/></svg></div>
+        <h3>Tools &amp; Deployment</h3>
+        <div class="tags">
+          <span>Git</span><span>GitHub</span><span>VS Code</span><span>Vercel</span>
+          <span>Render</span><span>Railway</span><span>Coolify / VPS</span>
+          <span>Debugging</span><span>Testing</span><span>Documentation</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg class="icon icon-lg"><use href="#i-shield"/></svg></div>
+        <h3>Security &amp; Quality</h3>
+        <div class="tags">
+          <span>OWASP Basics</span><span>CORS</span><span>Security Headers</span>
+          <span>Secrets Handling</span><span>Audit Logs</span><span>Input Validation</span>
+          <span>Test-Case Preparation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="section" id="experience">
+  <div class="container">
+    <p class="section-tag reveal">Experience</p>
+    <h2 class="section-title reveal">Where I've worked</h2>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">May 2026 &ndash; Present (expected completion: August 2026)</span>
+          <h3>Full-Stack Development / Cloud &amp; IoT Intern (OJT)</h3>
+          <p class="timeline-org">NexVision Innovations Inc. &middot; Marikina City, Philippines</p>
+          <ul>
+            <li>Contributed to frontend interfaces, backend APIs, database integrations, cloud deployments, testing, troubleshooting, and technical documentation for business applications.</li>
+            <li>Built and tested Supabase/PostgreSQL features including forms, dashboard views, authentication flows, role-aware access, validation, and database-backed records.</li>
+            <li>Assisted HRIS and biometric attendance workflows involving remote devices, centralized time-in/time-out records, API bridge services, logs, and cross-network testing.</li>
+            <li>Supported GitHub-based deployments and security remediation involving secrets, CORS, security headers, token storage, input validation, and access controls.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Previous role &middot; approximately five years</span>
+          <h3>Technical Operations / Building &amp; AV Support</h3>
+          <p class="timeline-org">UP College of Medicine &ndash; HSS-MSB &middot; Manila, Philippines</p>
+          <ul>
+            <li>Provided technical and operations support for classrooms, meetings, events, AV/Zoom setups, documentation, room scheduling, and issue coordination.</li>
+            <li>Developed strong user support, clear reporting, troubleshooting under pressure, and stakeholder coordination.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+    <p class="section-tag reveal">Selected Work</p>
+    <h2 class="section-title reveal">Projects</h2>
+    <p class="section-lead reveal">A selection of live business projects, an internal facility system, and academic/OJT-related technical work.</p>
+
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <div class="project-top">
+          <span class="project-status live"><svg class="icon icon-sm"><use href="#i-signal"/></svg> Live</span>
+          <span class="project-tag">SiglaTech</span>
+        </div>
+        <h3>SIGLATECH Company Website</h3>
+        <p>
+          Responsive business website for my own studio &mdash; service pages, portfolio content,
+          inquiry workflow, database-backed storage, privacy messaging, and secure form controls.
+        </p>
+        <div class="project-stack">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>Supabase</span><span>Vercel</span>
+        </div>
+        <a href="https://siglatechsolutions.com/" target="_blank" rel="noopener" class="project-link">
+          Visit site <svg class="icon icon-sm"><use href="#i-external"/></svg>
+        </a>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-top">
+          <span class="project-status live"><svg class="icon icon-sm"><use href="#i-signal"/></svg> Live</span>
+          <span class="project-tag">Facility System</span>
+        </div>
+        <h3>HSS-MSB Building CMS</h3>
+        <p>
+          Facility management &amp; directory system for UP College of Medicine's Henry Sy Sr. Medical
+          Sciences Building &mdash; room directory with floor plans, availability, reservation flow,
+          and safety/emergency resources across 88 rooms.
+        </p>
+        <div class="project-stack">
+          <span>Next.js</span><span>Vercel</span><span>Content Management</span>
+        </div>
+        <a href="https://hssh-msb-cms.vercel.app/" target="_blank" rel="noopener" class="project-link">
+          Visit site <svg class="icon icon-sm"><use href="#i-external"/></svg>
+        </a>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-top">
+          <span class="project-status live"><svg class="icon icon-sm"><use href="#i-signal"/></svg> Live</span>
+          <span class="project-tag">SiglaTech</span>
+        </div>
+        <h3>SIGLA CAKE</h3>
+        <p>
+          Online bakery ordering platform &mdash; product catalog, custom celebration-cake requests,
+          three-step ordering flow, and multiple payment options, deployed on Cloudflare Workers.
+        </p>
+        <div class="project-stack">
+          <span>JavaScript</span><span>Cloudflare Workers</span><span>E-commerce</span>
+        </div>
+        <a href="https://sigla-cake.siglatechsolutions.workers.dev/" target="_blank" rel="noopener" class="project-link">
+          Visit site <svg class="icon icon-sm"><use href="#i-external"/></svg>
+        </a>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-top">
+          <span class="project-status"><svg class="icon icon-sm"><use href="#i-cap"/></svg> Capstone</span>
+          <span class="project-tag">Compliance</span>
+        </div>
+        <h3>Data Privacy Compliance Management System</h3>
+        <p>
+          Breach records, consent tracking, 72-hour deadline monitoring, audit logs, RBAC, PDF
+          reports, dashboard analytics, test cases, and user documentation.
+        </p>
+        <div class="project-stack">
+          <span>Django</span><span>Python</span><span>Supabase/PostgreSQL</span><span>Render</span><span>Chart.js</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-top">
+          <span class="project-status"><svg class="icon icon-sm"><use href="#i-fingerprint"/></svg> OJT Project</span>
+          <span class="project-tag">HRIS</span>
+        </div>
+        <h3>HRIS / Biometric Attendance Integration</h3>
+        <p>
+          Prototype for multi-device, cross-network time-in/time-out testing with centralized
+          attendance-record flow, device-log analysis, API troubleshooting, and sync documentation.
+        </p>
+        <div class="project-stack">
+          <span>Supabase</span><span>REST APIs</span><span>Coolify</span><span>Railway</span><span>Vercel</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WORKFLOW ================= -->
+<section class="section" id="workflow">
+  <div class="container">
+    <p class="section-tag reveal">How I Work</p>
+    <h2 class="section-title reveal">Development workflow</h2>
+    <p class="section-lead reveal">
+      I follow a standard planning &rarr; build &rarr; test cycle, and use AI coding assistants as part
+      of that process &mdash; for planning, code review, and testing support.
+    </p>
+
+    <h3 class="workflow-subtitle reveal">AI-Assisted Planning, Code Review &amp; Testing</h3>
+    <div class="ai-grid">
+      <div class="ai-card reveal">
+        <div class="ai-icon claude"><svg class="icon icon-lg"><use href="#i-sparkles"/></svg></div>
+        <h3>Claude</h3>
+        <span class="ai-role">Code Review &amp; Secure Coding</span>
+        <p>
+          Used to review pull requests, reason through edge cases, and check code against
+          OWASP-aligned practices &mdash; input validation, auth flows, secrets handling, and
+          CORS/security-header configuration.
+        </p>
+      </div>
+
+      <div class="ai-card reveal">
+        <div class="ai-icon codex"><svg class="icon icon-lg"><use href="#i-terminal"/></svg></div>
+        <h3>Codex</h3>
+        <span class="ai-role">Code Generation &amp; Debugging</span>
+        <p>
+          Used for scaffolding features, drafting REST endpoints and boilerplate, and speeding up
+          debugging sessions so more time goes into testing, data modeling, and UX.
+        </p>
+      </div>
+
+      <div class="ai-card reveal">
+        <div class="ai-icon kiro"><svg class="icon icon-lg"><use href="#i-flow"/></svg></div>
+        <h3>Kiro</h3>
+        <span class="ai-role">Spec-Driven Development</span>
+        <p>
+          Used to turn requirements into clear specs and structured implementation steps before code
+          is written &mdash; useful for keeping multi-part features (like HRIS/attendance workflows)
+          consistent and well-documented.
+        </p>
+      </div>
+    </div>
+
+    <p class="ai-footnote reveal">
+      <svg class="icon icon-sm"><use href="#i-info"/></svg>
+      AI-assisted outputs are manually reviewed, tested, and validated before they're included in a
+      project.
+    </p>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section class="section section-alt" id="education">
+  <div class="container">
+    <p class="section-tag reveal">Education &amp; Training</p>
+    <h2 class="section-title reveal">Background</h2>
+
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <div class="edu-icon"><svg class="icon icon-lg"><use href="#i-cap"/></svg></div>
+        <div>
+          <h3>BS Information Systems &ndash; Cybersecurity Track</h3>
+          <p class="edu-org">GK College of Business, Arts and Technology</p>
+          <p class="edu-date">Expected graduation: first week of September 2026</p>
+          <div class="tags">
+            <span>Web Penetration Testing</span><span>Vulnerability Assessment</span>
+            <span>IT Security Risk Management</span><span>Cloud Cybersecurity</span>
+            <span>Python Programming</span><span>Network Enterprise Architecture</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="edu-card reveal">
+        <div class="edu-icon"><svg class="icon icon-lg"><use href="#i-award"/></svg></div>
+        <div>
+          <h3>Certifications &amp; Training</h3>
+          <ul class="edu-list">
+            <li>Computer Systems Servicing NC II &ndash; TESDA</li>
+            <li>Google Cybersecurity Certificate (coursework)</li>
+            <li>Google IT Support (coursework)</li>
+            <li>DICT Basic Python</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <p class="section-tag reveal">Get In Touch</p>
+    <h2 class="section-title reveal">Let's build something together</h2>
+    <p class="section-lead reveal">
+      Open to Junior Software Developer / Junior Application Developer roles, onsite after graduation
+      in September 2026. Also open to freelance and collaboration through SiglaTech.
+    </p>
+
+    <div class="contact-grid reveal">
+      <a href="mailto:eduardcortez05@gmail.com" class="contact-card">
+        <svg class="icon icon-lg"><use href="#i-mail"/></svg>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">eduardcortez05@gmail.com</span>
+      </a>
+      <a href="https://siglatechsolutions.com/" target="_blank" rel="noopener" class="contact-card">
+        <svg class="icon icon-lg"><use href="#i-globe"/></svg>
+        <span class="contact-label">Website</span>
+        <span class="contact-value">siglatechsolutions.com</span>
+      </a>
+      <div class="contact-card">
+        <svg class="icon icon-lg"><use href="#i-pin"/></svg>
+        <span class="contact-label">Location</span>
+        <span class="contact-value">Philippines</span>
+      </div>
+    </div>
+
+    <div class="contact-cta reveal">
+      <a href="mailto:eduardcortez05@gmail.com" class="btn btn-gold btn-lg">
+        <svg class="icon icon-sm"><use href="#i-send"/></svg> Send Me an Email
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Eduardson Cortez. Built with HTML, CSS &amp; JavaScript.</p>
+    <p class="footer-sub">Designed &amp; developed with AI-assisted code review.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
