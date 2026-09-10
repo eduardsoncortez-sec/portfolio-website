@@ -49,6 +49,10 @@ Each project card loads `images/projects/<name>.webp` with a `<name>.jpg` fallba
 
 Fully static — no build step. Deployed via **GitHub Pages** from the `main` branch.
 
+After changing `css/style.css` or `js/script.js`, bump the `?v=` query string on
+their `<link>` / `<script>` tags in `index.html` so visitors' browsers fetch the
+new file instead of a cached copy.
+
 To run locally:
 
 ```bash
