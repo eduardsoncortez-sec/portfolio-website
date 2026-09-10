@@ -1,41 +1,53 @@
 # Eduardson Cortez — Portfolio Website
 
-Personal portfolio of Eduardson Cortez, a graduating BS Information Systems (Cybersecurity Track) student and aspiring Junior Software Developer / Junior Application Developer.
+Personal portfolio of Eduardson Cortez, a graduating BS Information Systems (Cybersecurity Track) student and Junior Developer working with JavaScript / TypeScript, Next.js, Node.js, and PostgreSQL/Supabase.
 
-**Live site:** https://eduardpogi05.github.io/portfolio-website/
+**Live site:** https://eduardsoncortez-sec.github.io/portfolio-website/
 
 ![Portfolio preview](images/portfolio-preview.png)
 
 ## About
 
-A single-page portfolio covering background, technical skills, work experience, projects, development workflow, and education — built to support job applications for Junior Software Developer / Junior Application Developer roles.
+A single-page portfolio covering background, technical skills, work experience, projects, and
+education — built to support job applications for Junior Developer / Junior Application Developer
+roles.
 
 ## Technologies used
 
 - HTML5, CSS3 (custom, no framework)
-- Vanilla JavaScript (scroll spy, mobile nav, reveal animations)
+- Vanilla JavaScript — scroll spy, mobile nav, staggered reveal, scroll-progress bar, count-up
+  stats, typed role effect, pointer tilt/spotlight
 - Self-contained inline SVG icon sprite (no external icon CDN)
-- Google Fonts (Poppins, Inter)
+- Google Fonts (Poppins, Inter, JetBrains Mono)
+- Responsive `<picture>` with WebP + JPEG fallback
+- Respects `prefers-reduced-motion`
 
 ## Project structure
 
 ```
-Portfolio_Website/
+portfolio-website/
 ├── index.html          # Main page
 ├── css/
-│   └── style.css       # Styling (theme, layout, responsive rules)
+│   └── style.css       # Theme, layout, animations, responsive rules
 ├── js/
-│   └── script.js       # Nav toggle, scroll spy, reveal animations
+│   └── script.js       # Nav, scroll spy, reveal, count-up, typed role, tilt
 ├── images/
-│   ├── profile.png           # Hero photo
-│   └── portfolio-preview.png # Social share preview image
+│   ├── profile.webp / profile@2x.webp / profile.jpg   # Hero photo
+│   ├── portfolio-preview.png                          # Social share preview
+│   └── projects/                                      # Project screenshots
 └── docs/
     └── Eduardson_Cortez_Resume.pdf
 ```
 
+## Updating project screenshots
+
+Each project card loads `images/projects/<name>.webp` with a `<name>.jpg` fallback
+(`datashield`, `hssmsb`, `eventify`). To refresh one, drop in a new wide screenshot
+(~1280px, 16:10-ish) and re-export both formats.
+
 ## Deployment
 
-This is a fully static site — no build step required. It's deployed via **GitHub Pages** from the `main` branch.
+Fully static — no build step. Deployed via **GitHub Pages** from the `main` branch.
 
 To run locally:
 
@@ -48,5 +60,5 @@ Then open `http://localhost:5500`.
 ## Contact
 
 - Email: eduardcortez05@gmail.com
-- Website: https://siglatechsolutions.com/
-- GitHub: https://github.com/eduardPogi05
+- GitHub: https://github.com/eduardsoncortez-sec
+- LinkedIn: https://www.linkedin.com/in/eduardson-cortez-23a88b338
