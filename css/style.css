@@ -723,11 +723,18 @@ code { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monos
 .project-shot {
   display: block;
   aspect-ratio: 16 / 10;
+  min-height: 0;
   overflow: hidden;
   border-bottom: 1px solid var(--border);
   background: var(--surface-2);
 }
+.project-shot picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .project-shot img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
